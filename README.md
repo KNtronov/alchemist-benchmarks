@@ -1,6 +1,6 @@
 # Alchemist Benchmark Module
 
-This is a module created to benchmark alchemist execution
+This is a module created to benchmark [alchemist](https://github.com/AlchemistSimulator/Alchemist) execution
 to compare different run configurations and environments.
 
 The benchmarks are based on [JMH](https://github.com/openjdk/jmh) -
