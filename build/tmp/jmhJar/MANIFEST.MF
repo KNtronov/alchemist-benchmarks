@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+Main-Class: org.openjdk.jmh.Main
+Class-Path: null main alchemist-benchmarks.jar alchemist-incarnation-pro
+ telis-28.0.0.jar alchemist-28.0.0.jar alchemist-maps-28.0.0.jar alchemi
+ st-loading-28.0.0.jar alchemist-engine-28.0.0.jar alchemist-physics-28.
+ 0.0.jar alchemist-euclidean-geometry-28.0.0.jar alchemist-implementatio
+ nbase-28.0.0.jar alchemist-api-28.0.0.jar protelis-lang-17.1.1.jar prot
+ elis-interpreter-17.1.1.jar kotlinx-cli-jvm-0.3.5.jar alchemist-mainten
+ ance-tooling-28.0.0.jar kotlinx-coroutines-core-jvm-1.7.3.jar kotlin-st
+ dlib-jdk8-1.9.10.jar jmh-generator-bytecode-1.36.jar jmh-generator-annp
+ rocess-1.36.jar jmh-generator-asm-1.36.jar jmh-generator-reflection-1.3
+ 6.jar jmh-core-1.36.jar dsiutils-2.7.3.jar gs-algo-2.0.jar commons-math
+ 3-3.6.1.jar kotlin-stdlib-jdk7-1.9.10.jar kotlin-scripting-jsr223-1.9.1
+ 0.jar kotlin-scripting-jvm-host-1.9.10.jar kotlin-compiler-embeddable-1
+ .9.10.jar kotlin-reflect-1.9.10.jar arrow-core-jvm-1.2.0.jar kotlin-scr
+ ipting-compiler-embeddable-1.9.10.jar kotlin-scripting-compiler-impl-em
+ beddable-1.9.10.jar kotlin-scripting-jvm-1.9.10.jar kotlin-scripting-co
+ mmon-1.9.10.jar arrow-atomic-jvm-1.2.0.jar arrow-continuations-jvm-1.2.
+ 0.jar arrow-annotations-jvm-1.2.0.jar kotlin-stdlib-1.9.10.jar jopt-sim
+ ple-5.0.4.jar thread-inheritable-resource-loader-0.3.6.jar logback-clas
+ sic-1.4.11.jar graphhopper-core-7.0.jar slf4j-api-2.0.7.jar protelis.pa
+ rser-11.0.1.jar org.eclipse.xtext.xtext.generator-2.29.0.jar org.eclips
+ e.emf.mwe.utils-1.8.0.jar org.eclipse.emf.mwe.core-1.8.0.jar commons-cl
+ i-1.5.0.jar xmlgraphics-commons-2.7.jar commons-io-2.13.0.jar jirf-0.4.
+ 14.jar commons-configuration2-2.8.0.jar commons-text-1.9.jar commons-la
+ ng3-3.13.0.jar listset-0.3.9.jar boilerplate-0.2.2.jar java-quadtree-0.
+ 2.0.jar org.eclipse.xtext.xbase-2.29.0.jar org.eclipse.xtext.common.typ
+ es-2.29.0.jar org.eclipse.xtext.ecore-2.29.0.jar org.eclipse.xtext-2.29
+ .0.jar org.eclipse.xtext.util-2.29.0.jar org.eclipse.xtend.lib-2.29.0.j
+ ar org.eclipse.xtend.lib.macro-2.29.0.jar org.eclipse.xtext.xbase.lib-2
+ .29.0.jar org.eclipse.emf.mwe2.lib-2.14.0.jar org.eclipse.emf.mwe2.runt
+ ime-2.14.0.jar guice-5.0.1.jar guava-32.1.2-jre.jar kotlin-stdlib-commo
+ n-1.9.10.jar annotations-23.0.0.jar asm-9.4.jar failureaccess-1.0.1.jar
+  listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar jsr305-
+ 3.0.2.jar caffeine-3.1.8.jar checker-qual-3.37.0.jar error_prone_annota
+ tions-2.21.1.jar logback-core-1.4.11.jar jool-0.9.15.jar jgrapht-core-1
+ .5.2.jar trove4j-3.0.3.jar gs-core-2.0.jar gson-2.10.1.jar mongodb-driv
+ er-sync-4.10.2.jar snakeyaml-2.1.jar groovy-jsr223-3.0.19.jar scala-com
+ piler-2.13.11.jar commons-codec-1.16.0.jar appdirs-1.2.1.jar jpx-2.3.0.
+ jar simplelatlng-1.4.0.jar rtree-0.11.jar classgraph-4.8.162.jar common
+ s-collections4-4.4.jar jheaps-0.14.jar apfloat-1.10.1.jar dyn4j-5.0.1.j
+ ar fastutil-8.5.12.jar jsap-20210129.jar pherd-1.0.jar mbox2-1.0.jar co
+ mmons-math-2.1.jar jfreechart-1.0.14.jar mongodb-driver-core-4.10.2.jar
+  bson-record-codec-4.10.2.jar bson-4.10.2.jar groovy-3.0.19.jar kotlin-
+ script-runtime-1.9.10.jar scala-reflect-2.13.11.jar scala-library-2.13.
+ 11.jar java-diff-utils-4.12.jar jline-3.22.0.jar jna-platform-5.12.1.ja
+ r jna-5.13.0.jar graphhopper-web-api-7.0.jar hppc-0.8.1.jar janino-3.1.
+ 2.jar jackson-datatype-jts-2.14.jar jts-core-1.19.0.jar jackson-datafor
+ mat-xml-2.10.5.jar jackson-module-jaxb-annotations-2.10.5.jar jackson-d
+ atabind-2.10.5.1.jar jackson-core-2.10.5.jar osmosis-osm-binary-0.47.3.
+ jar guava-mini-0.1.6.jar rxjava-1.3.8.jar icu4j-72.1.jar org.apache.fel
+ ix.gogo.command-1.1.2.jar org.apache.felix.gogo.shell-1.1.4.jar org.apa
+ che.felix.gogo.runtime-1.1.6.jar org.apache.felix.scr-2.2.4.jar org.osg
+ i.service.component-1.5.0.jar org.osgi.util.promise-1.2.0.jar org.osgi.
+ service.event-1.4.1.jar org.eclipse.emf.codegen.ecore-2.20.0.jar org.ec
+ lipse.emf.codegen-2.19.0.jar org.eclipse.jdt.launching-3.19.700.jar org
+ .eclipse.jdt.debug-3.19.300.jar org.eclipse.debug.core-3.20.0.jar org.e
+ clipse.jdt.core-3.31.0.jar org.eclipse.core.resources-3.18.0.jar org.ec
+ lipse.core.expressions-3.8.200.jar org.eclipse.text-3.12.200.jar org.ec
+ lipse.core.variables-3.5.100.jar org.eclipse.core.runtime-3.26.0.jar or
+ g.eclipse.core.contenttype-3.8.200.jar org.eclipse.equinox.preferences-
+ 3.10.100.jar org.osgi.service.prefs-1.1.2.jar org.osgi.util.function-1.
+ 2.0.jar org.osgi.util.measurement-1.0.2.jar org.osgi.util.position-1.0.
+ 1.jar org.osgi.util.xml-1.0.2.jar org.osgi.service.cm-1.6.1.jar org.osg
+ i.service.device-1.1.1.jar org.osgi.service.metatype-1.4.1.jar org.osgi
+ .service.provisioning-1.2.0.jar org.osgi.service.upnp-1.2.1.jar org.osg
+ i.service.useradmin-1.1.1.jar org.osgi.service.wireadmin-1.0.2.jar anim
+ al-sniffer-annotations-1.23.jar commons-logging-1.2.jar jcommon-1.0.17.
+ jar xml-apis-1.3.04.jar itext-2.1.5.jar kotlin-daemon-embeddable-1.9.10
+ .jar trove4j-1.0.20200330.jar commons-compiler-3.1.2.jar jackson-annota
+ tions-2.10.5.jar woodstox-core-6.2.1.jar stax2-api-4.2.1.jar protobuf-j
+ ava-3.11.4.jar osgi.annotation-8.0.1.jar org.osgi.namespace.extender-1.
+ 0.1.jar org.osgi.namespace.implementation-1.0.0.jar reload4j-1.2.19.jar
+  org.eclipse.core.jobs-3.13.100.jar org.eclipse.equinox.app-1.6.200.jar
+  org.eclipse.core.filesystem-1.9.500.jar org.eclipse.equinox.registry-3
+ .11.200.jar org.eclipse.core.commands-3.10.200.jar org.eclipse.equinox.
+ common-3.16.200.jar org.eclipse.osgi-3.18.100.jar org.eclipse.emf.ecore
+ .xmi-2.16.0.jar org.eclipse.emf.ecore-2.20.0.jar org.eclipse.emf.common
+ -2.17.0.jar antlr-runtime-3.2.jar bcmail-jdk14-138.jar bcprov-jdk14-138
+ .jar jakarta.xml.bind-api-2.3.2.jar jakarta.activation-api-1.2.1.jar ja
+ vax.inject-1.jar aopalliance-1.0.jar
+
